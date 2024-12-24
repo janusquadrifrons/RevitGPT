@@ -1,4 +1,7 @@
 # RevitGPT
+
+![RevitGPTPanel](images/panel.png)
+
 ## Overview
 
 RevitGPT is a Revit plug-in that integrates OpenAI's GPT model to assist architects and engineers during the design process. This plug-in allows users to query building regulations, fire safety codes, and environmental guidelines directly from within Revit, using uploaded regulatory documents as a context for generating intelligent responses. 
