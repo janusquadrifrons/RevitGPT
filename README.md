@@ -23,19 +23,45 @@ RevitGPT is a Revit plug-in that integrates OpenAI's GPT model to assist archite
 - **.NET Framework**: Compatible with the Revit version in use (e.g., .NET Framework 4.8 for Revit 2017).
 - **OpenAI API Key**: Ensure access to the GPT models relevant to your needs.
   
-### Prerequisites
+### Steps
 
+1. Download the provided `.dll` and `.addin` files.
+2. Copy the `.dll` and `.addin` files to the Revit Add-ins folder:
+   - Default path: `C:\ProgramData\Autodesk\Revit\Addins\<RevitVersion>`
+3. Launch Revit and confirm the presence of the `RevitGPT` tab in the ribbon.
 
+---
 
-## Common Runtime Errors
+## Usage
+### Key Command
+1. Select the **Key** button within the `RevitGPT` tab.
+2. Input your OpenAI API key and confirm by clicking **Save**.
 
-**Negative Fiedler Value :** Results that are very close to zero but slightly negative are possible. This is due to the limitations of the floating-point precision. In this case assume the result as 0. 
+### Rag Command
+1. Select the **Rag** button within the `RevitGPT` tab.
+2. Choose a regulatory document (PDF or TXT, up to 10 MB) from the file dialog.
+3. Verify that the file upload completes successfully.
 
-## Usage with Commands
+### Chat Command
+1. Select the **Chat** button within the `RevitGPT` tab.
+2. Utilize the chat interface to pose queries about your design or the uploaded regulatory documents.
+3. View AI-generated responses within the chat display area.
 
-#### EXTRACTTOGRAPH      
--Function       : Extracts relevant data from the current drawing and saves it as a .json file.\
--Purpose        : The file can be used to train the model.
+---
 
+## Troubleshooting
+### Common Issues
+1. **API Key Missing:**
+   - Ensure the key is entered via the **Key** command.
+2. **Quota Errors:**
+   - Verify sufficient quota availability on your OpenAI API dashboard. Remember, your API account should be filled separately from your ChatGPT subscription.
 
+---
+
+## Contributions
+Contributions are encouraged! Follow these steps to contribute:
+1. Fork the repository.
+2. Create a new feature branch:
+   ```bash
+   git checkout -b feature/your-feature
 
