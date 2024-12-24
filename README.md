@@ -31,12 +31,16 @@ RevitGPT is a Revit plug-in that integrates OpenAI's GPT model to assist archite
 ### Key Command
 Input your OpenAI API key and confirm by clicking **Save**.
 
+![RevitGPTPanel](images/key.png)
+
 ### Rag Command
 Choose a regulatory document (PDF or TXT, up to 10 MB) from the file dialog.
 
 
 ### Chat Command
 Utilize the chat interface to post queries about your design or the uploaded regulatory documents. View AI-generated responses within the chat display area.
+
+![RevitGPTPanel](images/chat.gif)
 
 ## Troubleshooting
 ### Common Issues
@@ -46,7 +50,7 @@ Utilize the chat interface to post queries about your design or the uploaded reg
    - Verify sufficient quota availability on your OpenAI API dashboard. Remember, your API account should be filled separately from your ChatGPT subscription.
 
 ## Contributions
-Contributions are encouraged! Follow these steps to contribute:
+Contributions are welcome! Feel free to submit issues, fork the repository, and make pull requests. For major changes, please open an issue first to discuss what you would like to change. Follow these steps to contribute:
 1. Fork the repository.
 2. Create a new feature branch:
    ```bash
