@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RevitGPT</Text>
+    <Description>ChatGPT inside Revit</Description>
+    <Assembly>RevitGPT.dll</Assembly>
+    <FullClassName>RevitGPT.Command</FullClassName>
+    <ClientId>92D0D9B3-6508-45BF-933E-E3807760682A</ClientId>
+    <VendorId>janusquadrifrons</VendorId>
+    <VendorDescription>https://github.com/janusquadrifrons?tab=repositories</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitGPT</Name>
+    <Assembly>RevitGPT.dll</Assembly>
+    <FullClassName>RevitGPT.App</FullClassName>
+    <ClientId>88041C33-0895-4A7D-AF4B-90C7168FA2C5</ClientId>
+    <VendorId>janusquadrifrons</VendorId>
+    <VendorDescription>https://github.com/janusquadrifrons?tab=repositories</VendorDescription>
+  </AddIn>
+</RevitAddIns>
