@@ -50,9 +50,5 @@ Utilize the chat interface to post queries about your design or the uploaded reg
    - Verify sufficient quota availability on your OpenAI API dashboard. Remember, your API account should be filled separately from your ChatGPT subscription.
 
 ## Contributions
-Contributions are welcome! Feel free to submit issues, fork the repository, and make pull requests. For major changes, please open an issue first to discuss what you would like to change. Follow these steps to contribute:
-1. Fork the repository.
-2. Create a new feature branch:
-   ```bash
-   git checkout -b feature/your-feature
+Please drop an issue for the source code.
 
